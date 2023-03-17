@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor1 {
+    display: flex;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(-45deg, #ee5279, #783ce7, #2993b9, #09f0ba);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+    background-position: 0% 50%;
+    }    
+    50% {
+    background-position: 100% 50%;
+    }    
+    100% {
+    background-position: 0% 50%;
+    }
+    }
+
+.divi {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 50px;
+}
+
+.text-border {
+    -webkit-text-stroke: 0px #fbff06;
+}
+
+.text-border:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+    transition: all 0.25s;
+}
+
+.contenedor2 {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.divCard{
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(137, 202, 255, 0.548);
+    margin: 0 30px 50px 30px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px #4d3aff solid;
+}
+
+.divCard:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.74);
+    transition: all 0.25s;
+    background-color: rgba(30, 226, 233, 0.548);
+}
+
+.card_div {
+    height: 100%;
+    object-fit: cover;
+}
+
+.ptxt{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contenedor3 {
+    display: flex;
+    min-height: 500px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    gap: 10px;
+    width: 80%;
+    margin: 20px;
+}
+
+.divCard{
+    display: flex;
+    height: 500px;
+    width: 1000px;
+    background-color: rgba(137, 202, 255, 0.548);
+    margin: 0 30px 50px 30px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px #4d3aff solid;
+}
+
+.divCard:hover {
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.74);
+    transition: all 0.25s;
+    background-color: rgba(30, 226, 233, 0.548);
+}
+
+.txt{
+    font-size: 25px;
+}
